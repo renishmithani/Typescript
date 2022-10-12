@@ -2,10 +2,11 @@
 //     let result = num1 + num2
 //     printCB("Result", result);
 // }
+
 // function printResults(label: string, result: number) {
 //     console.log(label, result);
 // }
+
 // getCalBacks(10, 20, printResults);
-var someValue = "How are you";
-var strLength = someValue.length;
-console.log(strLength);
+
+console.log('Hello')
