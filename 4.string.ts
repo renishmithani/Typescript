@@ -1,2 +1,2 @@
-const name: string = "Renish";
-console.log(name);
+const declareName: string = "Renish";
+console.log(declareName);

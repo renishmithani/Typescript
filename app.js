@@ -1,7 +1,8 @@
-function R(n1, n2) {
-    return n1 + n2;
-}
-function print(num) {
-    console.log("Result is: " + num);
-}
-print(R(5, 12));
+// function getCalBacks(num1: number,num2: number,printCB: (label: string, result: number) => void) {
+//     let result = num1 + num2
+//     printCB("Result", result);
+// }
+// function printResults(label: string, result: number) {
+//     console.log(label, result);
+// }
+// getCalBacks(10, 20, printResults);
