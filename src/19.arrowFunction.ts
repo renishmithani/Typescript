@@ -7,3 +7,9 @@ const arrowFunction = (str: string) => {
 const diff: (str: string) => void = str => {
     console.log(str)
 }
+
+//Third Way of making function
+const diffff: (str: string | number) => {} = (str) => {
+    return str;
+};
+console.log(difff("Renish"));

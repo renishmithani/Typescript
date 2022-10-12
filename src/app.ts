@@ -15,7 +15,7 @@ const arrowFunctions = (str: string): string => {
 }
 
 //Second Way of making function
-const difff: (str: string | number) => void = str => {
+const difff: (str: string | number) => {} = (str) => {
     return str;
 }
 
