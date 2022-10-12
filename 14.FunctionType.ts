@@ -17,6 +17,11 @@ function getUndefined(): undefined {                //Function Return Type
     return;
 }
 
+function getFunctionTypeArray(): number[]{
+    console.log('Renish')
+    return [10+10]
+}
+
 let getNumber: Function             //Function Type
 getNumber = returnNum
 

@@ -2,5 +2,37 @@
     "cSpell.words": [
         "Mithani",
         "Strs"
-    ]
+    ],
+    "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    {
+      "text": "NOTE:",
+      "color": "black",
+      "backgroundColor": "rgba(255,255,255,1)",
+      "overviewRulerColor": "white"
+    },
+    {
+      "text": "HACK:",
+      "color": "#000",
+      "isWholeLine": false
+    },
+    {
+      "text": "TODO:",
+      "color": "red",
+      "border": "1px solid red",
+      "borderRadius": "2px",
+      "backgroundColor": "rgba(0,0,0,.2)"
+    },
+    {
+      "text": "#region",
+      "color": "black",
+      "border":"1px solid skyblue",
+      "borderRadius":"3px",
+      "backgroundColor": "white",
+      "overviewRulerColor": "white",
+    },
+]
 }

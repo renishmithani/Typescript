@@ -6,3 +6,6 @@
 //     console.log(label, result);
 // }
 // getCalBacks(10, 20, printResults);
+var someValue = "How are you";
+var strLength = someValue.length;
+console.log(strLength);

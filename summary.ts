@@ -69,4 +69,24 @@ callFun = fun; //We Can store only function
 // callFun = "String"         //Other Type not working
 
 //Function CallBack Type
+function printCallBack(num1: number, num2: number, callBackFun: (label: string, result: number) => void){
+    let result = num1 + num2
+    callBackFun('Result', result)
+}
+
+function printResultValue(label: string, result: number){
+    console.log(label, result)
+}
+
+console.log(printCallBack(10,20,printResultValue));
+
+//Unknown
+let unknown: unknown;
+let numbersT: number = 60;
+
+unknown = "Renish";
+unknown = 50
+unknown = numbersT
+console.log(unknown)
+// unknown.toUpperCase()    //We cant use any method because of unknown type
 
