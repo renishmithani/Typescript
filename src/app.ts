@@ -9,4 +9,14 @@
 
 // getCalBacks(10, 20, printResults);
 
-console.log('Hello')
+//First Way to make function in typescript
+const arrowFunctions = (str: string): string => {
+    return str.toUpperCase()
+}
+
+//Second Way of making function
+const difff: (str: string | number) => void = str => {
+    return str;
+}
+
+console.log(difff('Renish'))
