@@ -1,5 +1,5 @@
 let someValue: unknown = "How are you";
-let strLength: number = (someValue as string).length;
+let strLength: number = (someValue as string).length; //Type-Assertions
 console.log(strLength);
 
 let nothing: unknown = 50;

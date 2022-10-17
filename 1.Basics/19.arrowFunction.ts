@@ -12,4 +12,12 @@ const diff: (str: string) => void = str => {
 const diffff: (str: string | number) => {} = (str) => {
     return str;
 };
-console.log(difff("Renish"));
+console.log(diffff("Renish"));
+
+//--------------- Function With Default Parameter ---------------------------------------
+
+const getting = (num1: number, num2: number = 10): number =>  {
+    return num1 + num2
+}
+const printFun = getting(10)
+console.log(printFun)

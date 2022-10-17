@@ -3,6 +3,7 @@
       "difff",
       "diffff",
       "Mithani",
+      "Renish",
       "Strs"
     ],
     "todohighlight.isEnable": true,
@@ -43,5 +44,9 @@
       "borderRadius": "2px",
       "backgroundColor": "rgba(0,0,0,.2)"
     },
+],
+"cSpell.ignoreWords": [
+  "Stearing",
+  "deasel"
 ]
 }
