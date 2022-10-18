@@ -1,26 +1,13 @@
 "use strict";
-class Departments {
-    constructor(name) {
-        this.employees = [];
-        this.name = name;
-    }
-    describe() {
-        console.log('Department' + this.name);
-    }
-    addEmployee(employee) {
-        this.employees.push(employee);
-    }
-    printEmployeeInformation() {
-        console.log(this.employees.length);
-        console.log(this.employees);
-    }
+const input1 = document.getElementById("num1"); //Type casting
+const input2 = document.getElementById("num1"); //Type Casting
+const input3 = document.getElementById("num1"); //Type Casting
+input1.value = "Some Values...";
+//NOTE: 1. ! marks means never return value null
+//-----------------------------------------
+const paragraph = document.querySelector("p");
+if (paragraph) {
+    paragraph.innerHTML = "Hello";
 }
-const account = new Departments("Account");
-account.addEmployee("Person1");
-account.addEmployee("Person2");
-// account.employees[2] = "Person3";
-// account.employees[3] = "Person4";
-// account.employees[4] = "Person5";
-// account.employees[5] = "Person6";
-console.log(account.name);
-account.printEmployeeInformation();
+const p = document.querySelectorAll("input");
+console.log(p[0].focus());

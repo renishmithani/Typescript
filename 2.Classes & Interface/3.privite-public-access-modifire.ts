@@ -1,4 +1,4 @@
-class Departments {
+class AddDepartment {
     public name: string;
     private employees: string[];
 
@@ -6,7 +6,7 @@ class Departments {
         this.name = name;
         this.employees = [];
     }
-    describe(this: Departments) {
+    describe(this: AddDepartment) {
         console.log("Department" + this.name);
     }
     addEmployee(employee: string) {
@@ -18,12 +18,12 @@ class Departments {
     }
 }
 
-const account = new Departments("Account");
+const account = new AddDepartment("Account");
 
 account.addEmployee("Person1");
 account.addEmployee("Person2");
-account.employees[2] = "Person3";
-account.employees[3] = "Person4";
+// account.employees[2] = "Person3";
+// account.employees[3] = "Person4";
 
 console.log(account.name);
 
@@ -31,7 +31,7 @@ account.printEmployeeInformation();
 
 //-------------- We can write this way also -(shorthand initialization)-
 
-class Departmentss {
+class AddDepartments {
 
     private employees: string[];
     constructor(public name: string, private age: number) {
@@ -42,7 +42,7 @@ class Departmentss {
 }
 
 //-------------- We can write this way also -(shorthand initialization)-
-class Departmentsss {
+class AddDepartmentss {
     
     private employees: string[] = [];
     constructor(public name: string, private age: number) {

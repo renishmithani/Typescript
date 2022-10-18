@@ -1,5 +1,5 @@
 "use strict";
-class Departments {
+class AddDepartment {
     constructor(name) {
         this.name = name;
         this.employees = [];
@@ -15,15 +15,15 @@ class Departments {
         console.log(this.employees);
     }
 }
-const account = new Departments("Account");
+const account = new AddDepartment("Account");
 account.addEmployee("Person1");
 account.addEmployee("Person2");
-account.employees[2] = "Person3";
-account.employees[3] = "Person4";
+// account.employees[2] = "Person3";
+// account.employees[3] = "Person4";
 console.log(account.name);
 account.printEmployeeInformation();
 //-------------- We can write this way also -(shorthand initialization)-
-class Departmentss {
+class AddDepartments {
     constructor(name, age) {
         this.name = name;
         this.age = age;
@@ -33,7 +33,7 @@ class Departmentss {
     }
 }
 //-------------- We can write this way also -(shorthand initialization)-
-class Departmentsss {
+class AddDepartmentss {
     constructor(name, age) {
         this.name = name;
         this.age = age;

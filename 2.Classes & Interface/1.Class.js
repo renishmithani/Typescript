@@ -1,31 +1,25 @@
+"use strict";
 //------------------ Example --------------------
-
 class Department {
-    name: string;
-    constructor(name: string) {
+    constructor(name) {
         this.name = name;
     }
 }
-
 const accounting = new Department("Accounting");
-
 //------------------ Advance Example --------------------
 class example {
-    name: string;
-    age: number;
-    people: string[] = [];
-    constructor(name: string, age: number) {
+    constructor(name, age) {
+        this.people = [];
         this.name = name;
         this.age = age;
     }
-    getDetails(this: example) {
+    getDetails() {
         return `Name: ${this.name}\nAge: ${this.age}`;
     }
-    addPeople(people: string) {
+    addPeople(people) {
         this.people.push(people);
     }
 }
-
 const ex1 = new example("Renish", 22);
 ex1.addPeople("p1");
 ex1.addPeople("p2");
@@ -34,6 +28,5 @@ ex1.addPeople("p4");
 console.log(ex1.people);
 // console.log(ex1.getDetails())
 // console.log(ex1.people)
-
 // const obj = { name: 'Prince',age: '18',objEx: ex1.getDetails }
 // console.log(obj.objEx())

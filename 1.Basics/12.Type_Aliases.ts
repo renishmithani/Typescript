@@ -60,3 +60,12 @@ const combineValuesString = Combine_Values("Renish", " Mithani", "as-string");
 console.log(combineValuesNumber);
 console.log(combineValuesAsNumber);
 console.log(combineValuesString);
+
+//--------------Type_Aliases in Function-------------------------
+
+type AsFun = (n1:number,n2:number) => number;
+let add: AsFun;
+
+add = (n1:number,n2: number) => {
+    return n1 + n2
+}
