@@ -1,5 +1,5 @@
-"use strict";
 // /// <reference path="./1.NameSpace.ts"/>
+
 // namespace objNamespace {
 //     const OBJ: objStructure = {
 //         name: "Person1",
